@@ -1,0 +1,17 @@
+GET http://localhost:3000/books
+
+
+###
+GET http://localhost:3000/books/1
+
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title":"How to catch Python",
+    "ISBN":3,
+    "publisedDate":"2024-5-15",
+    "author":"GH"
+}
